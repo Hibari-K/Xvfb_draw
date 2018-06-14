@@ -6,6 +6,9 @@ drawing test for virtual framebuffer through Xvfb
 * x11vnc
 * vncviewer
 
+## Testing environment
+Ubuntu 16.04
+
 ## Setup
 If you've not install packages in *Dependency*, install them as follows:
 ```
