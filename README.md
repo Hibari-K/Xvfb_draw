@@ -1,5 +1,5 @@
 # Xvfb_draw
-Draw to virtual framebuffer through Xvfb
+drawing test for virtual framebuffer through Xvfb
 
 ## Dependency
 * Xvfb
@@ -7,7 +7,7 @@ Draw to virtual framebuffer through Xvfb
 * vncviewer
 
 ## Setup
-If you've not install packages in Dependency, install them
+If you've not install packages in *Dependency*, install them as follows:
 ```
 $ sudo apt install xvfb x11vnc vncviewer
 ```
@@ -15,3 +15,5 @@ $ sudo apt install xvfb x11vnc vncviewer
 ## test
 First, `make run` to compile, run, and ready for drawing,
 and then `make vnc` on another terminal.
+
+Finally, please run `make kill` to quit Xvfb.
